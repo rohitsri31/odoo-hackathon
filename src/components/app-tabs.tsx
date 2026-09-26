@@ -30,7 +30,7 @@ export default function AppTabs() {
       </NativeTabs.Trigger>
 
       <NativeTabs.Trigger name="intelligence">
-        <NativeTabs.Trigger.Label>Intelligence</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Label>History</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
     </NativeTabs>
   );
