@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.thelordrishabh.StockSense"
     },
     "web": {
       "output": "static",
@@ -38,6 +39,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "076a84c6-1e2b-4af9-b954-8d1c82186690"
+      }
+    },
+    "owner": "thelordrishabh",
+    "updates": {
+      "url": "https://u.expo.dev/076a84c6-1e2b-4af9-b954-8d1c82186690"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
